@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @bacteria-1
-- 👀 I’m interested in web developping
-- 🌱 I’m currently learning javascript
-- 💞️ I’m looking to collaborate on ...
+- 👀 I’m interested in cyber security 
+- 🌱 I’m currently learning python
+- 💞️ Ethical hacking is my thing
 - 📫 How to reach me: steviekyalo5@gmail.com
 
 <!---
