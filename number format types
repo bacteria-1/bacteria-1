@@ -1,0 +1,23 @@
+🔢 Numeric Formatting Types
+Format	Meaning	Example (num = 255)
+:d	Decimal (base 10)	255
+:b	Binary (base 2)	11111111
+:o	Octal (base 8)	377
+:x	Hexadecimal (lowercase)	ff
+:X	Hexadecimal (UPPERCASE)	FF
+:n	Number with locale separator	255 or 255,000
+:,	Adds comma as thousands separator	1,000,000
+:_	Underscore as thousands separator	1_000_000
+:e	Scientific notation (lowercase)	2.550000e+02
+:E	Scientific notation (UPPERCASE)	2.550000E+02
+:f	Fixed-point notation (floats)	255.000000
+:.2f	Float with 2 decimal places	255.00
+%	Percentage (multiplies by 100)	0.85 → 85.000000%
+
+🔧 Other format options (alignment, padding, signs)
+Spec	Meaning	Example
+>, <, ^  	Align right, left, center	f"{42:>5}" → ' 42'
++  	Always show sign	+42, -42
+(space)  	Leading space for positives	' 42', '-42'
+0	  Pad with zeros	f"{5:03}" → '005'
+#	  Include base prefix	f"{255:#x}" → '0xff'
