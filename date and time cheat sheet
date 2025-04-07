@@ -1,0 +1,31 @@
+🕒 Date & Time Formatting Cheat Sheet (strftime codes)
+
+📆 Date Codes
+Code	Meaning	Example
+%Y	Year (4 digits)	2025
+%y	Year (2 digits)	25
+%m	Month (01-12)	04
+%B	Month name (full)	April
+%b	Month name (short)	Apr
+%d	Day of the month (01-31)	03
+%A	Weekday (full)	Thursday
+%a	Weekday (short)	Thu
+%w	Weekday (0=Sunday)	4
+%j	Day of the year (001-366)	094
+
+⏰ Time Codes
+Code	Meaning	Example
+%H	Hour (24-hour)	14
+%I	Hour (12-hour)	02
+%p	AM or PM	PM
+%M	Minute (00-59)	45
+%S	Second (00-59)	10
+%f	Microseconds (000000-999999)	123456
+
+🧩 Other Useful Codes
+Code	Meaning	Example
+%Z	Time zone	UTC
+%z	UTC offset	+0300
+%c	Local date & time	Thu Apr 3 14:45:10 2025
+%x	Local date	04/03/25 (depends on locale)
+%X	Local time	14:45:10
