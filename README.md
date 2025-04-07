@@ -10,8 +10,5 @@
 ✅ Perform ethical hacking & penetration testing
 ✅ Explore cybersecurity trends & best practices
 
-📬 Get in Touch
-📧 Email: steviekyalo5@gmail.com
-📡 GitHub: @bacteria-1
 
 🚀 Let’s secure the digital world together! 🔐
